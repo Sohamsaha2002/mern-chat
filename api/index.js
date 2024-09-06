@@ -21,7 +21,7 @@ const bcryptSalt = bcrypt.genSaltSync(10);
 app.use(
   cors({
     credentials: true,
-    origin: process.env.CLIENT_URL,
+    origin: 'https://sohamchat.vercel.app/',
   })
 );
 
