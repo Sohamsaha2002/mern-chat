@@ -21,7 +21,7 @@ export default function Chat() {
   }, [selectedUserId]);
 
   function connectToWs() {
-    const ws = new WebSocket("ws://schat-m29e.onrender.com");
+    const ws = new WebSocket("wss://schat-rust.vercel.app/");
     setWs(ws);
     ws.addEventListener("message", handleMessage);
     ws.addEventListener("close", () => {
