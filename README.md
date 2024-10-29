@@ -1,6 +1,6 @@
 # MERN Chat
 
-A web socket based Realtime Chat application for Chatting and File Sharing with User online/offline status and user authentication.
+A websocket based Realtime Chat application for Chatting and File Sharing with User online/offline status and user authentication.
 
 ## Table of Contents
 - [Client Setup](#client-setup)
